@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd"[]>
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.2">
+ <Domain>
+  <!-- *************** START OF ImageDataContainer *************** -->
+  <Grid Name="ImageDataContainer" GridType="Uniform">
+    <Topology TopologyType="3DCoRectMesh" Dimensions="195 316 370 "></Topology>
+    <Geometry Type="ORIGIN_DXDYDZ">
+      <!-- Origin  Z, Y, X -->
+      <DataItem Format="XML" Dimensions="3">-19.3 5.01 -37.1742</DataItem>
+      <!-- DxDyDz (Spacing/Resolution) Z, Y, X -->
+      <DataItem Format="XML" Dimensions="3">0.1 0.1002 0.1002</DataItem>
+    </Geometry>
+    <Attribute Name="BC" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/BC
+      </DataItem>
+    </Attribute>
+    <Attribute Name="BS" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/BS
+      </DataItem>
+    </Attribute>
+    <Attribute Name="Bands" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/Bands
+      </DataItem>
+    </Attribute>
+    <Attribute Name="Error" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/Error
+      </DataItem>
+    </Attribute>
+    <Attribute Name="EulerAngles" AttributeType="Vector" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 3" NumberType="Float" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/EulerAngles
+      </DataItem>
+    </Attribute>
+    <Attribute Name="FeatureIds" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/FeatureIds
+      </DataItem>
+    </Attribute>
+    <Attribute Name="IPFColor" AttributeType="Vector" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 3" NumberType="UChar" Precision="1" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/IPFColor
+      </DataItem>
+    </Attribute>
+    <Attribute Name="MAD" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Float" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/MAD
+      </DataItem>
+    </Attribute>
+    <Attribute Name="Mask" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="uchar" Precision="1" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/Mask
+      </DataItem>
+    </Attribute>
+    <Attribute Name="Phases" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Int" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/Phases
+      </DataItem>
+    </Attribute>
+    <Attribute Name="X" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Float" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/X
+      </DataItem>
+    </Attribute>
+    <Attribute Name="Y" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="194 315 369 1" NumberType="Float" Precision="4" >
+        Random_segmented.dream3d:/DataContainers/ImageDataContainer/CellData/Y
+      </DataItem>
+    </Attribute>
+  </Grid>
+  <!-- *************** END OF ImageDataContainer *************** -->
+ </Domain>
+</Xdmf>
